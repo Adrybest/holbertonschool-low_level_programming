@@ -1,2 +1,3 @@
 #!/bin/bash
-fputs "Programming is like building a multilingual puzzle 
+#include <stdio.h>
+fputs "Programming is like building a multilingual puzzle\n"
