@@ -9,8 +9,6 @@ int main(void)
 
 	int n;
 
-	printf("\n", n);
-
 	/* My code for variable n*/
 	if (n > 0)
 
