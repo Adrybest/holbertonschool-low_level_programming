@@ -9,9 +9,9 @@ int main(void)
 
 	int n;
 
-	printf("%d \n");
+	printf("\n", n);
 
-	/* Our own code for variable n*/
+	/* My code for variable n*/
 	if (n > 0)
 
 	{
