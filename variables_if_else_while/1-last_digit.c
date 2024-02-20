@@ -9,7 +9,7 @@ int main(void)
 {
 	int n;
 
-	int n, digit;
+	int digit;
 
 	digit = n % 10;
 
