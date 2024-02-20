@@ -1,9 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more hearders goes there */
+/** more hearders goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - Positive or negative number
+ * Return: 0
+ */
 int main(void)
 {
 	int n;
@@ -14,18 +17,16 @@ int main(void)
 	printf("%d \n", n);
 
 	if (n > 0)
-
 	{
-		printf("The number is positive \n");
-
+		printf("The number is positive\n");
 	}
 	else if (n < 0)
 	{
-		printf("The number is negative \n");
+		printf("The number is negative\n");
 	}
 	else
 	{
-		printf("The number is zero \n");
+		printf("The number is zero\n");
 	}
 	return (0);
 }
