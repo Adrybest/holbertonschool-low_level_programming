@@ -15,7 +15,7 @@ int main(void)
 
 	}
 
-putchar("char *\n");
+putchar(char *\n);
 return (0);
 
 }
