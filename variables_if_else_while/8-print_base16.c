@@ -6,7 +6,7 @@
 int main(void)
 {
 	int number;
-	char alphabet;
+	int alphabet;
 
 	for (number = '0'; number <= '9'; number++)
 		putchar(number);
