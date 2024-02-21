@@ -3,7 +3,6 @@
  * main - print alphabet exept e and e
  * Return: 0
  */
-
 int main(void)
 {
 	char alphabet;
