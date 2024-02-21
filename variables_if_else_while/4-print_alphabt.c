@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - print alphabet exept e and e
- * Return: 0
+ * Return: Always (success)
  */
 int main(void)
 {
