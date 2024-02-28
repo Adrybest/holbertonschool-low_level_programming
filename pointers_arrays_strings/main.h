@@ -2,4 +2,6 @@
 #define MAIN
 
 int _putchar(char c);
-#endef
+
+void reset_to_98(int *n);
+#endif
