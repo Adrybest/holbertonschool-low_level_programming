@@ -6,17 +6,22 @@
  */
 char *leet(char *d)
 {
-	int a, b;
+	int a = 0, b = 0, c = 0;
 	char ds[5] = {'A', 'E', 'O', 'T', 'L'};
 	char dt[5] = {'4', '3', '0', '7', '1'};
 
 	while (d[a])
 	{
-		for (b = 0; b <= 7; b++)
+		while (b < c)
+		{
+
+		for (b = 0; b <= 5; b++)
 		{
 			if (d[a] == ds[b] || d[a] - 32 == ds[b])
-				d[a] = dt[b] + '0';
+				d[a] = dt[b];
 		}
+		}
+
 		a++;
 	}
 	return (d);
