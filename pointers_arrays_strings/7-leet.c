@@ -12,6 +12,8 @@ char *leet(char *d)
 
 	while (d[a])
 	{
+		b = 0;
+
 		while (b < c)
 		{
 			if (d[a] == ds[b] || d[a] - 32 == ds[b])
