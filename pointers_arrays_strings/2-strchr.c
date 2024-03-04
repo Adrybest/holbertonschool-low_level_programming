@@ -10,5 +10,5 @@ char *_strchr(char *s, char c)
 	for (; *s != c; s++)
 	{
 	}
-	return (s; '\0');
+	return (s);
 }
