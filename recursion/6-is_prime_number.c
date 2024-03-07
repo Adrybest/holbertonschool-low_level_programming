@@ -6,14 +6,27 @@
  */
 int is_prime_number(int n)
 {
-	int a = 2;
-
+	return (_entier(n, 1));
+}
+/**
+ * _entier - calcule les nombers premiers naturel
+ * @n: int
+ * @a: int
+ * Return: Always (success)
+ */
+int _entier(int n, int a)
+{
 	if (n <= 1)
 	{
 		return (0);
 	}
-	if (n >= 2 && n <= 3)
+	if (n % a == 0 && a > 1)
 	{
-		return (1);
+		return (0);
 	}
-
+	if ((n / a) < a)
+	{
+	return (1);
+	}
+	return (_entier(n, a + 1));
+}
