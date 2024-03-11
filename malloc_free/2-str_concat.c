@@ -10,6 +10,14 @@ char *str_concat(char *s1, char *s2)
 	char *a;
 	int b, c = 0, u = 0;
 
+	if (s1 == NULL)
+	{
+		return (s1);
+	}
+	if (s2 == NULL)
+	{
+		return (NULL);
+	}
 	for (b = 0; s1[b] || s2[b]; b++)
 	{
 		u++;
