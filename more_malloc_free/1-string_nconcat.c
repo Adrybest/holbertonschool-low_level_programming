@@ -9,7 +9,7 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *ptr;
-	unsigned int c = 0, a;
+	unsigned int c = n, a;
 
 	if (s1 == NULL)
 	{
