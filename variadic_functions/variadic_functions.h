@@ -14,4 +14,15 @@ void print_strings(const char *separator, const unsigned int n, ...);
 
 void print_all(const char * const format, ...);
 
+/**
+ * struct print - struct type
+ * @sym: type
+ * @prt: print
+*/
+typedef struct print
+{
+	char *sym;
+	void (*prt)(va_list liste);
+} print_t;
+
 #endif
